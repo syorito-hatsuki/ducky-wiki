@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
     title: 'Ducky Wiki',
-    tagline: 'Collection of all wikis of my projects',
+    tagline: 'Collection my projects wikisfао',
     favicon: 'img/favicon.ico',
 
     url: 'https://ducky-wiki.github.io',
@@ -22,7 +22,6 @@ const config: Config = {
         defaultLocale: 'en',
         locales: ['en'],
     },
-
     presets: [
         [
             'classic',
