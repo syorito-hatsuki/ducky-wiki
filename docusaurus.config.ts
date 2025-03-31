@@ -29,8 +29,7 @@ const config: Config = {
             {
                 docs: {
                     sidebarPath: './sidebars.ts',
-                    editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                    editUrl: 'https://github.com/syorito-hatsuki/ducky-wiki/tree/master/docs/',
                 },
                 theme: {
                     customCss: './src/css/custom.css',
