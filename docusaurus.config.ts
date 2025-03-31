@@ -49,9 +49,33 @@ const config: Config = {
             items: [
                 {
                     type: 'docSidebar',
-                    sidebarId: 'tutorialSidebar',
+                    sidebarId: 'deathCounter',
                     position: 'left',
-                    label: 'Tutorial',
+                    label: 'Death Counter',
+                },
+                {
+                    type: 'docSidebar',
+                    sidebarId: 'duckyUpdaterReWork',
+                    position: 'left',
+                    label: 'Ducky Updater: ReWork',
+                },
+                {
+                    type: 'docSidebar',
+                    sidebarId: 'yetAnotherCobblestoneGenerator',
+                    position: 'left',
+                    label: 'Yet Another Cobblestone Generator',
+                },
+                {
+                    type: 'docSidebar',
+                    sidebarId: 'duckyUpdaterLib',
+                    position: 'right',
+                    label: 'Ducky Updater Lib',
+                },
+                {
+                    type: 'docSidebar',
+                    sidebarId: 'modMenuBadgesLib',
+                    position: 'right',
+                    label: 'ModMenu Badges Lib',
                 },
             ],
         },
