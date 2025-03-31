@@ -86,7 +86,7 @@ const config: Config = {
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} DuckyWiki. Built with Docusaurus.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Ducky Wiki. Built with Docusaurus.`,
         },
         prism: {
             theme: prismThemes.github,
