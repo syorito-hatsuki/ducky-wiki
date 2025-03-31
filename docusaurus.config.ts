@@ -60,16 +60,37 @@ const config: Config = {
             style: 'dark',
             links: [
                 {
-                    title: 'Projects',
+                    title: 'Mods',
                     items: [
                         {
-                            label: 'Tutorial',
-                            to: '/docs/intro',
+                            label: 'Death Counter',
+                            href: 'https://modrinth.com/mod/death-counter',
+                        },
+                        {
+                            label: 'Ducky Updater: ReWork',
+                            href: 'https://modrinth.com/mod/ducky-updater-rework',
+                        },
+                        {
+                            label: 'Yet Another Cobblestone Generator',
+                            href: 'https://modrinth.com/mod/yacg',
                         },
                     ],
                 },
                 {
-                    title: 'Sources',
+                    title: 'Libraries',
+                    items: [
+                        {
+                            label: 'Ducky Updater Lib',
+                            href: 'https://modrinth.com/mod/ducky-updater-lib',
+                        },
+                        {
+                            label: 'ModMenu Badges Lib',
+                            href: 'https://modrinth.com/mod/modmenu-badges-lib',
+                        },
+                    ]
+                },
+                {
+                    title: 'Wiki Sources',
                     items: [
                         {
                             label: 'GitHub',
