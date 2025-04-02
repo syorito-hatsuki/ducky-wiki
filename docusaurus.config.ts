@@ -1,8 +1,13 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import * as path from "node:path";
+import * as fs from "node:fs";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+
+const packageJsonPath = path.resolve(process.cwd(), 'package.json');
+const packageData = JSON.parse(fs.readFileSync(packageJsonPath, 'utf-8'));
 
 const config: Config = {
     title: 'Ducky Wiki',
@@ -148,7 +153,7 @@ const config: Config = {
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} Ducky Wiki. Built with Docusaurus.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Ducky Wiki - Built with Docusaurus<br>Version ${packageData.version}`,
         },
         prism: {
             theme: prismThemes.github,
