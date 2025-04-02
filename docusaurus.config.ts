@@ -47,35 +47,44 @@ const config: Config = {
             },
             items: [
                 {
-                    type: 'docSidebar',
-                    sidebarId: 'deathCounter',
+                    type: 'dropdown',
+                    label: 'Mods',
                     position: 'left',
-                    label: 'Death Counter',
+                    items: [
+                        {
+                            type: 'docSidebar',
+                            sidebarId: 'deathCounter',
+                            label: 'Death Counter',
+                        },
+                        {
+                            type: 'docSidebar',
+                            sidebarId: 'duckyUpdaterReWork',
+                            label: 'Ducky Updater: ReWork',
+                        },
+                        {
+                            type: 'docSidebar',
+                            sidebarId: 'yetAnotherCobblestoneGenerator',
+                            label: 'Yet Another Cobblestone Generator',
+                        },
+                    ]
                 },
                 {
-                    type: 'docSidebar',
-                    sidebarId: 'duckyUpdaterReWork',
+                    type: 'dropdown',
+                    label: 'Libraries',
                     position: 'left',
-                    label: 'Ducky Updater: ReWork',
-                },
-                {
-                    type: 'docSidebar',
-                    sidebarId: 'yetAnotherCobblestoneGenerator',
-                    position: 'left',
-                    label: 'Yet Another Cobblestone Generator',
-                },
-                {
-                    type: 'docSidebar',
-                    sidebarId: 'duckyUpdaterLib',
-                    position: 'right',
-                    label: 'Ducky Updater Lib',
-                },
-                {
-                    type: 'docSidebar',
-                    sidebarId: 'modMenuBadgesLib',
-                    position: 'right',
-                    label: 'ModMenu Badges Lib',
-                },
+                    items: [
+                        {
+                            type: 'docSidebar',
+                            sidebarId: 'duckyUpdaterLib',
+                            label: 'Ducky Updater Lib',
+                        },
+                        {
+                            type: 'docSidebar',
+                            sidebarId: 'modMenuBadgesLib',
+                            label: 'ModMenu Badges Lib',
+                        },
+                    ]
+                }
             ],
         },
         footer: {
