@@ -37,6 +37,8 @@ const config: Config = {
         ],
     ],
 
+    plugins: ['docusaurus-lunr-search'],
+
     themeConfig: {
         image: 'img/docusaurus-social-card.jpg',
         navbar: {
@@ -84,6 +86,10 @@ const config: Config = {
                             label: 'ModMenu Badges Lib',
                         },
                     ]
+                },
+                {
+                    type: 'search',
+                    position: 'right',
                 }
             ],
         },
