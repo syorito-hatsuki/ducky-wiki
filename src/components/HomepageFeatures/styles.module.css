@@ -1,11 +1,17 @@
-.features {
-    display: flex;
-    align-items: center;
-    padding: 2rem 0;
-    width: 100%;
+.featureLink {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
 }
 
-.featureSvg {
-    height: 200px;
-    width: 200px;
+.featureLink:hover {
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+    background-color: #f9f9f9;
 }
