@@ -9,8 +9,8 @@ const config: Config = {
     tagline: 'Collection my projects wikisfао',
     favicon: 'img/favicon.ico',
 
-    url: 'https://ducky-wiki.github.io',
-    baseUrl: '/',
+    url: 'https://syorito-hatsuki.github.io',
+    baseUrl: '/ducky-wiki',
 
     organizationName: 'syorito-hatsuki', // Usually your GitHub org/user name.
     projectName: 'ducky-wiki', // Usually your repo name.
