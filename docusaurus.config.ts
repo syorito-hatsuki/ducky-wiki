@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
     title: 'Ducky Wiki',
-    tagline: 'Collection my projects wikisfао',
+    tagline: 'Collection my projects wikis',
     favicon: 'img/favicon.ico',
 
     url: 'https://syorito-hatsuki.github.io',
