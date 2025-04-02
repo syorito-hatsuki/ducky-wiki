@@ -39,8 +39,9 @@ const config: Config = {
 
     plugins: [['@easyops-cn/docusaurus-search-local', {
         hashed: true,
-        highlightSearchTermsOnTargetPage: true
-    }]],
+        highlightSearchTermsOnTargetPage: true,
+        fuzzyMatchingDistance: 10
+    }], 'plugin-image-zoom'],
 
     themeConfig: {
         image: 'img/docusaurus-social-card.jpg',
