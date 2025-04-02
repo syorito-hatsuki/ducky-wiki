@@ -37,7 +37,10 @@ const config: Config = {
         ],
     ],
 
-    plugins: ['docusaurus-lunr-search'],
+    plugins: [['@easyops-cn/docusaurus-search-local', {
+        hashed: true,
+        highlightSearchTermsOnTargetPage: true
+    }]],
 
     themeConfig: {
         image: 'img/docusaurus-social-card.jpg',
