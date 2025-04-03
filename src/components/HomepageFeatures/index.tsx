@@ -53,10 +53,10 @@ const LibrariesList: FeatureItem[] = [
     },
 ]
 
-function Feature({title, img, description, docs}: FeatureItem) {
+function Feature({title, img, description, docs, type}: FeatureItem) {
     return (
         <div className={clsx('col col--3')}>
-            <Link to={`/docs/${docs}`} className={styles.featureLink}>
+            <Link to={`/docs/${type}/${docs}`} className={styles.featureLink}>
                 <div className="text--center">
                     {img ? <img alt={title} src={img}
                                 style={{imageRendering: 'pixelated', height: "200px", width: "200px"}}/> :
