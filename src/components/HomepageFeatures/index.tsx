@@ -35,7 +35,7 @@ const ModsList: FeatureItem[] = [
         docs: "yet-another-cobblestone-generator",
         type: "mods",
         img: "https://github.com/syorito-hatsuki/yet-another-cobble-gen/blob/1.21/src/main/resources/assets/yacg/icon.png?raw=true"
-    },
+    }
 ];
 const LibrariesList: FeatureItem[] = [
     {
@@ -55,7 +55,7 @@ const LibrariesList: FeatureItem[] = [
 
 function Feature({title, img, description, docs, type}: FeatureItem) {
     return (
-        <div className={clsx('col col--3')}>
+        <div className={clsx('col col--3')} style={{padding: "1rem"}}>
             <Link to={`/docs/${type}/${docs}`} className={styles.featureLink}>
                 <div className="text--center">
                     {img ? <img alt={title} src={img}
@@ -76,14 +76,13 @@ export default function HomepageFeatures(): ReactNode {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            padding: "2rem 0",
+            padding: "1rem 0",
             width: "100%"
         }}>
-            <h1>Mods</h1>
+            <h1 style={{margin: 0}}>Mods</h1>
             <section style={{
                 display: "flex",
                 alignItems: "center",
-                padding: "2rem 0",
                 width: "100%"
             }}>
                 <div className="container">
@@ -95,11 +94,10 @@ export default function HomepageFeatures(): ReactNode {
                 </div>
             </section>
 
-            <h1>Libraries</h1>
+            <h1 style={{margin: 0}}>Libraries</h1>
             <section style={{
                 display: "flex",
                 alignItems: "center",
-                padding: "2rem 0",
                 width: "100%"
             }}>
                 <div className="container">
