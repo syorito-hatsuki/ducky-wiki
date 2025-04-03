@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Index
+# Modmenu Badges Lib
 
 <details>
 <summary>Root of new wiki</summary>

@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Configure
+# Ducky Updater ReWork
 
 <details>
 <summary>Root of new wiki</summary>

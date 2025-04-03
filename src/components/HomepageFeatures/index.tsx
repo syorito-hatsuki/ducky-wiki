@@ -7,43 +7,49 @@ import Link from "@docusaurus/Link";
 import styles from './styles.module.css';
 
 type FeatureItem = {
-    title: string;
-    img?: string;
     description: ReactNode;
     docs: string;
+    img?: string;
+    title: string;
+    type: "mods" | "libs";
 };
 
 const ModsList: FeatureItem[] = [
     {
         title: 'Death Counter',
-        img: "https://github.com/syorito-hatsuki/death-counter/blob/1.21.2/src/main/resources/assets/deathcounter/icon.png?raw=true",
         description: (<>Death Counter with client Web UI</>),
-        docs: "death-counter"
+        docs: "death-counter",
+        type: "mods",
+        img: "https://github.com/syorito-hatsuki/death-counter/blob/1.21.2/src/main/resources/assets/deathcounter/icon.png?raw=true"
     },
     {
         title: 'Ducky Updater: ReWork',
-        img: "https://github.com/syorito-hatsuki/ducky-updater-rework/blob/1.20/src/main/resources/assets/duckyupdaterrework/icon.png?raw=true",
         description: (<>Simple utility for update mods using Modrinth API</>),
-        docs: "ducky-updater-rework"
+        docs: "ducky-updater-rework",
+        type: "mods",
+        img: "https://github.com/syorito-hatsuki/ducky-updater-rework/blob/1.20/src/main/resources/assets/duckyupdaterrework/icon.png?raw=true"
     },
     {
         title: 'Yet Another Cobblestone Generator',
-        img: "https://github.com/syorito-hatsuki/yet-another-cobble-gen/blob/1.21/src/main/resources/assets/yacg/icon.png?raw=true",
         description: (<>Flexible customizable generators</>),
-        docs: "yet-another-cobblestone-generator"
+        docs: "yet-another-cobblestone-generator",
+        type: "mods",
+        img: "https://github.com/syorito-hatsuki/yet-another-cobble-gen/blob/1.21/src/main/resources/assets/yacg/icon.png?raw=true"
     },
 ];
 const LibrariesList: FeatureItem[] = [
     {
         title: "Ducky Updater Lib",
-        img: "https://github.com/syorito-hatsuki/ducky-updater-lib/blob/1.20/src/main/resources/assets/duckyupdater/icon.png?raw=true",
         description: "Simple library for checking mod updates from modrinth",
-        docs: "ducky-updater-lib"
+        docs: "ducky-updater-lib",
+        type: "libs",
+        img: "https://github.com/syorito-hatsuki/ducky-updater-lib/blob/1.20/src/main/resources/assets/duckyupdater/icon.png?raw=true"
     },
     {
         title: "ModMenu Badges Lib",
         description: "More badge!!!",
-        docs: "modmenu-badges-lib"
+        docs: "modmenu-badges-lib",
+        type: "libs"
     },
 ]
 

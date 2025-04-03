@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Configure
+# Yet Another Cobblestone Generator
 
 <details>
 <summary>Root of new wiki</summary>

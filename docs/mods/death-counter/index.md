@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Configure
+# Death Counter
 
 <details>
 <summary>Root of new wiki</summary>
